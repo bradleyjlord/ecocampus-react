@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Home from '@/components/Home'
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import Installation from './components/Installation'
 import Faqs from './components/Faqs'
 

@@ -6,7 +6,8 @@ import { Button } from "@/components/ui/button"
 
 export default function Navbar () {
     return (
-        <header className="fixed top-0 w-full bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 z-50 border-b">
+    <div className="flex flex-row items-center justify-center min-h-screen">
+      <header className="fixed top-0 w-full bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 z-50 border-b">
         <div className="container flex h-16 items-center justify-between px-4">
           <Link href="/" className="flex items-center">
             <Image
@@ -67,5 +68,6 @@ export default function Navbar () {
           </Sheet>
         </div>
       </header>
+    </div>
     )
 }
